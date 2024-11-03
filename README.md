@@ -1,5 +1,7 @@
 # slack-counter-reactions
-
+- Counter reactions from Slack Web UI
+  
+# step
 Step 1: Get session token from request in Network Tab
 
 Step 2: Copy and run code
