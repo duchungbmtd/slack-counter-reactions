@@ -94,7 +94,7 @@ const counterReaction = async (token) => {
 var currentThreadTs = 0;
 var token = prompt("Vui lòng nhập giá trị:");
 if (token == null) {
-    alert("Vui lòng nhập token");
+    alert("Vui lòng nhập session token");
 } else {
     document.addEventListener('click', function(event) {
         const classList = event.target.classList[0];
