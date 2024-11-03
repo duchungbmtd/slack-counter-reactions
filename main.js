@@ -98,7 +98,6 @@ if (token == null) {
 } else {
     document.addEventListener('click', function(event) {
         const classList = event.target.classList[0];
-        console.log(classList);
         if (event.target.classList.contains('c-timestamp__label')) {
             const targetElement = event.target.closest('.c-message_kit__message');
             if (targetElement) {
